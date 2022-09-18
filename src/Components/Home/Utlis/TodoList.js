@@ -4,12 +4,7 @@ import "../../../App.css";
 export default function TodoList(props) {
   const displayTodos = () =>
     props.todoList.map((todo) => {
-      return (
-        <>
-          <Todo todo={todo} key={todo.sno} onDelete={props.onDelete}></Todo>
-          <hr></hr>
-        </>
-      );
+      return <Todo todo={todo} key={todo.sno} onDelete={props.onDelete}></Todo>;
     });
 
   return (

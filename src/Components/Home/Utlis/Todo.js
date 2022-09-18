@@ -1,15 +1,21 @@
 export default function Todo({ todo, onDelete }) {
   return (
-    <div className="todo">
-      <div className="todo-details">
-        <h5>{todo.title}</h5>
-        <p>{todo.desc}</p>
-      </div>
+    <>
+      <div className="todo">
+        <div className="todo-details">
+          <h5>{todo.title}</h5>
+          <p>{todo.desc}</p>
+        </div>
 
-      <button className="btn btn-sm btn-danger" onClick={() => onDelete(todo)}>
-        Delete
-      </button>
-    </div>
+        <button
+          className="btn btn-sm btn-danger"
+          onClick={() => onDelete(todo)}
+        >
+          Delete
+        </button>
+      </div>
+      <hr />
+    </>
   );
 }
 /* 
