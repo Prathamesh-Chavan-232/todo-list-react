@@ -1,3 +1,6 @@
+body {
+  min-height: 70vh;
+}
 .todo {
   display: flex;
   border-radius: 12px;
