@@ -1,4 +1,12 @@
-# Todo list app 
+# Todo list react app 
+A simple todo list website<br>
+## Features
+&emsp;- CRUD Operations<br>
+&emsp;- Local Storage<br>
+## Made to learn the basics of react<br>
+&emsp;- creating components<br> 
+&emsp;- React hooks<br> 
+&emsp;- React DOM<br>
+&emsp;- React Router v6<br>
+  
 
-A simple todo list website created using react & bootstrap css.
-Made in order to learn the basics of react, creating components, hooks & react router dom
