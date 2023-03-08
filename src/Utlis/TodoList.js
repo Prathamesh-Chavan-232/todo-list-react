@@ -1,5 +1,5 @@
 import Todo from "./Todo";
-import "../../../App.css";
+import "../App.css";
 
 export default function TodoList(props) {
   const displayTodos = () =>
